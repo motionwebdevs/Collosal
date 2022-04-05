@@ -1,0 +1,231 @@
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 1024px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 992px) {
+    .work__img {
+        width: 60%;
+    }
+}
+
+@media (max-width: 768px) {
+   .menu .mob-menu  .mob-menu__navbar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu .mob-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .menu .mob-menu .header__navbar__item, .mob-menu__btn {
+        font-size: 20px;
+        margin: 8px 0;
+    }
+   .menu .mob-menu .mob-menu__btn {
+        padding: 10px 20px;
+    }
+
+    .menu {
+        position: absolute;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.66);
+        min-height: 80vh;
+    }
+
+    .menu .burger {
+        margin-top: 20px;
+    }
+
+    .menu .burger .line:before {
+
+        opacity: 0;
+    }
+
+    .menu .burger .line:after {
+        transform: rotate(65deg);
+        transition: .7s;
+    }
+
+    .menu .burger .line {
+        transition: .7s;
+
+        transform: rotate(58deg);
+    }
+
+    .testimonial .slick-list .slick-track .slick-current {
+
+        display: none;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .work__img {
+        width: 60%;
+    }
+
+    .work, .team {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 0;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .card__wrapper {
+        width: 80%;
+        margin: 10px 0;
+    }
+
+    .header__navbar, .header__btn {
+        display: none;
+    }
+
+    .burger {
+        display: flex;
+    }
+
+    .clients {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .clients img {
+        margin: 15px 0;
+    }
+
+    .clients__img1, .clients__img2 {
+        width: 35%;
+    }
+
+    .clients__img3, .clients__img4 {
+        width: 35%;
+    }
+
+    .clients__img5 {
+        width: 35%;
+    }
+
+    .team__img2, .team__img4 {
+        right: 156px;
+    }
+
+    .team__img3 {
+        left: 74px;
+    }
+
+    .team__box {
+        margin-top: 30px;
+    }
+
+    .footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .footer__box {
+        width: 50%;
+        margin: 10px 0;
+    }
+
+}
+
+@media (max-width: 414px) {
+    .hero__big-title {
+        font-size: 25px;
+        line-height: 38px;
+    }
+
+    .hero__desc {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .hero__buttons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero__buttons button {
+        margin: 10px 0;
+    }
+
+    .work__desc, .team__desc {
+        font-size: 21px;
+        line-height: 35px;
+    }
+
+    .work__title, .team__title {
+        font-size: 13px;
+        line-height: 25px;
+    }
+
+    .work__subtitle, .team__subtitle {
+        font-size: 13px;
+        line-height: 25px;
+    }
+
+    .team__btn {
+        margin-top: 20px;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 16px;
+
+    }
+
+    .team__img1 {
+        width: 100%;
+    }
+
+    .team__img2 {
+        width: 90%;
+        right: 10px;
+    }
+
+    .team__img3, .team__img4 {
+        width: 15%;
+    }
+
+    .team__img3 {
+        left: 14px;
+    }
+
+    .team__img4 {
+        right: 19px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .footer__box {
+        width: 100%;
+        margin: 30px 0;
+    }
+
+    .hero__buttons button {
+        padding: 15px 36px;
+        font-size: 13px;
+        line-height: 8px;
+    }
+}
