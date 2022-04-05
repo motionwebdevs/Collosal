@@ -30,6 +30,7 @@
         margin: 8px 0;
     }
    .menu .mob-menu .mob-menu__btn {
+       display: flex;
         padding: 10px 20px;
     }
 
